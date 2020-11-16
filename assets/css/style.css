@@ -1,13 +1,18 @@
+
+/*Appling stylesheet to the Index.html*/
+/* Applying to all the element in the index.html */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Change the backgrund color*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Header Tag Styling */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +20,18 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+/* H1 Tag Styling:Changing the dispaly and fontsize */
+ h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+/* Changing the font color of Company Name */
+ .Company_Name {
     color: #d9dcd6;
 }
 
+/* Applying changes to the Header Links:Search engine Optimization,Online reputation management,Social media marketing */
 .Header_info {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +40,30 @@ header h1 .seo {
     font-size: 20px;
 
 }
-    ul {
+
+/* Applying the style to the Header list */
+ul {
     list-style-type: none;
 }
 
+/* Applying the style to the each item of the Header list */
  ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Changing the color and text style of the link  in the header*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* In the Content section Change the font size */
 p {
     font-size: 16px;
 }
 
+/* Adding the image to the figure tag and applying the style */ 
 figure {
     height: 800px;
     width: 100%;
@@ -60,22 +74,26 @@ figure {
     background-position: center;
 }
 
+/* In the index.html changing the floating behavior to left for the article with the id search-engine-optimization*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* In the index.html changing the floating behavior to right for the article with the id online-reputation-management*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* For the section tag changing the width ,dispaly and margin to left */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* For the Section tag changing the style */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,25 +105,26 @@ figure {
     background-color: #2589bd;
 }
 
-
+/* for the article tag changing the  margin and color */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* In the Article tag applying style to the h3 tag */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* In the Article tag applying style to the Img tag */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/* Applying changes to the article tag having class search-engine-online-social-media*/
 .search-engine-online-social-media {
     margin-bottom: 20px;
     padding: 50px;
@@ -114,13 +133,19 @@ figure {
     background-color: #0072bb;
     color: #ffffff;
 }
+
+/* Applying changes to the img tag having class search-engine-online-social-media*/
 .search-engine-online-social-media img {
     max-height: 200px;
 }
+
+/* Applying changes to the heading tag having class search-engine-online-social-media*/
 .search-engine-online-social-media h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/*Changing the style of the footer tag */
 footer {
     padding: 30px;
     clear: both;
@@ -128,6 +153,7 @@ footer {
     text-align: center;
 }
 
+/*Changing the style of the header tag in the footer */
 footer h2 {
     font-size: 20px;
 }
