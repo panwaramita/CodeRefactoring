@@ -24,5 +24,5 @@ In the horiseon-brand-builder project,removed all the non semantic tags and repl
 ![image](./assets/images/website_screenshot.png)
 
 ## Link
-[horiseon brand builder](https://panwaramita.github.io/CodeRefactoring/)
+[horiseon brand builder](https://panwaramita.github.io/horiseon-brand-builder/)
 
