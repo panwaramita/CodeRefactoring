@@ -27,12 +27,12 @@ header {
 }
 
 /* Changing the font color of Company Name */
- .company_name {
+ .seo {
     color: #d9dcd6;
 }
 
 /* Applying changes to the Header Links:Search engine Optimization,Online reputation management,Social media marketing */
-.Header_info {
+.header_info {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
